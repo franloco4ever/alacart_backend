@@ -1,0 +1,60 @@
+# Entorno virtual
+venv/
+.env/
+.venv/
+
+# Variables de entorno
+.env
+.env.local
+.env.dev
+.env.prod
+.env.test
+
+# Archivos de Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Directorios y archivos de desarrollo/test
+*.log
+logs/
+.pytest_cache/
+.coverage
+htmlcov/
+.coverage.*
+*.cover
+*.mo
+*.pot
+
+# IDE/Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*.sublime-workspace
+*.sublime-project
+
+# Archivos de sistema
+.DS_Store
+Thumbs.db
+
+# Archivos de SQLite (si usas SQLite para desarrollo local)
+*.sqlite
+*.sqlite3
+
+# Archivos generados por Alembic (si usas migraciones)
+alembic/versions/*
+
+# Archivos de caché y build
+dist/
+build/
+*.egg-info/
+*.egg
+
+# Archivos de Jupyter Notebook (si los usas)
+.ipynb_checkpoints/
+
+# Archivos de Docker (si usas Docker)
+docker-compose.override.yml
